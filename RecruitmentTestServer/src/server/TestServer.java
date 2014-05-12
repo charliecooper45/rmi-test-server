@@ -1,3 +1,4 @@
+package server;
 import interfaces.TestServerInterface;
 
 import java.rmi.Naming;
