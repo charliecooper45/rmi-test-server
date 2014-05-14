@@ -31,6 +31,7 @@ public class TestServerImplementation extends UnicastRemoteObject implements Tes
 		super();
 	}
 
+	/*
 	@Override
 	public String connectToServer(String userName) throws RemoteException {
 		// check if there is a user with the same name connected
@@ -46,6 +47,7 @@ public class TestServerImplementation extends UnicastRemoteObject implements Tes
 			return databaseConnection;
 		}
 	}
+	*/
 
 	@Override
 	public String addUser(String firstName, String surname) {
